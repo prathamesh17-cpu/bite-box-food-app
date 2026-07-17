@@ -4,10 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/imagefevicom/" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+">
+<script src="https://kit.fontawesome.com/7ac5dfb52a.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    <H1>
-        THIS IS HTML
-    </H1>
+  <header>
+<nav>
+       <div>
+<!--logo-->
+<!-- <h2>Bite<span style="color: red;" >Box</span></h2> -->
+<img src="/image/biteboxlogo.png" alt="logo" width="180px">
+<!--menu-->
+<ul>
+<li><a href="home.html" class="active">home</a></li>
+<li><a href="menu.html">menu</a></li>
+<li><a  href="bitedeal.html">bitedeal</a></li>
+<li ><a href="cart.html">cart<i class="fa-solid fa cart-arrow-down"></i></a></li>
+<li ><a href="login.html">login<i class="fa-solid fa-arrow-right-from-bracket"></i></a></li>
+</ul>
+</div>
+
+
+
+</nav>
+
+</header>
+<!--cart section-->  
+
+<section class="cart"><br><br><br>
+  <table>
+    <thead>
+      <th>item</th>
+      <th>price</th>
+      <th>quntity</th>
+      <th>total</th>
+      <th>remove</th>
+    </thead>
+    <tbody>
+   <tr>
+    <td class="item">
+    <img src="/image/pexels-ramon-rangel-661975902-34407507 (1).jpg" alt="">
+    <div>
+      <h4>cheesy burger</h4>
+      <p>juicy grilic burger</p>
+    </div>
+    </td>
+    <td>rs.199</td>
+    <td>
+      <div class="qty-box">
+        <button>-</button>
+      <span>1</span>
+      <button>+</button>
+      </div>
+    </td>
+    <td>199</td>
+    <td>
+      <button class="remove">X</button>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td class="item">
+    <img src="/image/pexels-andres-alaniz-461433202-24538683 - Copy.jpg" alt="">
+    <div>
+      <h4>pasta</h4>
+      <p>simple pasta</p>
+    </div>
+    </td>
+    <td>rs.200</td>
+    <td>
+      <div class="qty-box">
+        <button>-</button>
+      <span>1</span>
+      <button>+</button>
+      </div>
+    </td>
+    <td>rs.200</td>
+    <td>
+      <button class="remove">X</button>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td class="item">
+    <img src="/image/sandwich.jpg" alt="">
+    <div>
+      <h4>sandwich</h4>
+      <p>cheesy sandwich</p>
+    </div>
+    </td>
+    <td>rs.170</td>
+    <td>
+      <div class="qty-box">
+        <button>-</button>
+      <span>1</span>
+      <button>+</button>
+      </div>
+    </td>
+    <td>rs.170</td>
+    <td>
+      <button class="remove">X</button>
+    </td>
+   </tr>
+
+   
+   <tr>
+    <td class="item">
+    <img src="/image/momos.jpg" alt="">
+    <div>
+      <h4>momos</h4>
+      <p>steam momos</p>
+    </div>
+    </td>
+    <td>rs.110</td>
+    <td>
+      <div class="qty-box">
+        <button>-</button>
+      <span>1</span>
+      <button>+</button>
+      </div>
+    </td>
+    <td>rs.110</td>
+    <td>
+      <button class="remove">X</button>
+    </td>
+   </tr>
+
+   <tr class="grand-total">
+    <td colspan="3">grand totral</td>
+   <td id="total">679</td>
+   <td><button>proceed</button></td>
+   </tr>
+  
+  
+    </tbody>
+  </table>
+</section> 
 </body>
 </html>
